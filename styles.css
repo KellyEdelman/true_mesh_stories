@@ -1,0 +1,235 @@
+/* ------------------------------
+   GLOBAL TEXT & HEADERS
+--------------------------------*/
+h1 {
+  color: #ba0012;
+  text-align: center;
+  font-size: 75px;
+  padding-top: 35px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.true-mesh-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* keeps your title centered */
+  position: relative;
+  padding: 20px 0;
+}
+
+.badge-top {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+  height: 300px;
+  margin-left: 55px;
+}
+
+.introduction {
+  margin: 40px 20px;
+  font-size: 24px;
+}
+
+.interview-project p {
+  font-size: 22px;
+  text-align: left;
+  margin: 20px 25px;
+}
+
+.registry-button {
+  display: inline-block;
+  padding: 18px 40px; /* Bigger button */
+  background: #0073e6;
+  color: white !important; /* Force white text */
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 0px auto;
+}
+
+p.disclaimer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ba0012;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.website_creator {
+  max-width: 800px;
+  margin: 20px auto 10px auto;
+}
+
+.website_creator .video-row {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: center; /* or cover */
+  background-color: black; /* optional */
+}
+
+/* ------------------------------
+   TOP IMAGE ROW
+--------------------------------*/
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 80px;
+}
+
+.image-row img {
+  width: 450px;
+  height: 325px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 6px;
+}
+
+/* ------------------------------
+   STORY SECTION (Lives Lost)
+--------------------------------*/
+.story {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.story-item img {
+  margin: 0 40px;
+}
+
+.story-item a {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register-your-story {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+/* ------------------------------
+   VIDEO SECTION
+--------------------------------*/
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.video-card a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+/* ------------------------------
+   FDA REPORTING SECTION
+--------------------------------*/
+.fda-reporting {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.block-content {
+  text-align: center;
+  margin: 5px auto 40px auto;
+  width: fit-content;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-top: 60px;
+  padding: 25px 0;
+  border-top: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.site-footer a {
+  color: #0073e6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.medwatch-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.medwatch-link a {
+  font-size: 14px;
+  color: #0073e6;
+  font-weight: normal;
+}
+
+.footer_disclaimer {
+  font-size: 14px;
+  color: #777;
+  margin-top: 15px;
+}
+
+/* ------------------------------
+   GLOBAL LINK COLORS
+--------------------------------*/
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
