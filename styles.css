@@ -147,6 +147,15 @@ p.disclaimer {
   margin-top: 40px;
 }
 
+.video-card iframe {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  display: block;
+}
+
 .video-card {
   display: flex;
   flex-direction: column;
@@ -296,8 +305,16 @@ a:visited {
   }
 
   .video-card {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .video-card iframe {
     width: 100%;
-    margin-bottom: 30px;
+    max-width: 850px;
+    height: 480px;
+    border: none;
   }
 }
 
