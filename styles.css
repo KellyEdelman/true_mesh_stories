@@ -1,6 +1,5 @@
-/* ------------------------------
-   GLOBAL TEXT & HEADERS
---------------------------------*/
+/* baseline */
+
 h1 {
   color: #ba0012;
   text-align: center;
@@ -56,6 +55,7 @@ h2 {
   font-weight: bold;
   transition: background-color 0.3s ease;
   margin: 0px auto;
+  width: fit-content;
 }
 
 p.disclaimer {
@@ -78,8 +78,8 @@ p.disclaimer {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: center; /* or cover */
-  background-color: black; /* optional */
+  object-fit: center;
+  background-color: black;
 }
 
 /* ------------------------------
@@ -207,12 +207,12 @@ footer a {
 
 .medwatch-link {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 18px;
   color: #777;
 }
 
 .medwatch-link a {
-  font-size: 14px;
+  font-size: 18px;
   color: #0073e6;
   font-weight: normal;
 }
@@ -232,4 +232,92 @@ a:link {
 
 a:visited {
   color: purple;
+}
+
+@media (max-width: 1200px) {
+  .badge-top {
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .true-mesh-header {
+    flex-direction: column;
+  }
+
+  .badge-top {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .image-row img {
+    width: 90%;
+    height: auto;
+  }
+
+  .story {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story-item {
+    width: 100%;
+  }
+
+  .story-item img {
+    max-width: 90%;
+    height: auto;
+    margin: 0;
+  }
+
+  .video-row {
+    display: block;
+  }
+
+  .video-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.youtube {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.youtube a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.youtube img {
+  width: 120px;
+  height: auto;
 }
